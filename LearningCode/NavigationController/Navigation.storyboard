@@ -64,7 +64,7 @@
         <!--Navigation Controller-->
         <scene sceneID="zQ2-jd-Q2B">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" id="VQU-0X-ecM" customClass="NavigationController" customModule="LearningCode" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="NavigationController" automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" id="VQU-0X-ecM" customClass="NavigationController" customModule="LearningCode" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="yRf-fd-kQw">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -125,7 +125,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
                                 <connections>
-                                    <action selector="jumpToNextView:" destination="uev-dN-xZh" eventType="touchUpInside" id="LaB-XA-MK7"/>
+                                    <action selector="jumpToNextView:" destination="uev-dN-xZh" eventType="touchUpInside" id="D5U-15-mA0"/>
                                 </connections>
                             </button>
                         </subviews>

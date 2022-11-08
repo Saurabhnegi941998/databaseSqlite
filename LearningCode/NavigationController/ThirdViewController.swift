@@ -36,9 +36,9 @@ class ThirdViewController: UIViewController {
     }
     
     @IBAction func jumpToNextView(_ sender: Any) {
-        let storyBoard = UIStoryboard(name: "Main", bundle: nil)
-        let vc = storyBoard.instantiateViewController(withIdentifier: "LoginViewController") as! LoginViewController
-        self.navigationController?.pushViewController(vc, animated: true)
+//        let storyBoard = UIStoryboard(name: "Main", bundle: nil)
+//        let vc = storyBoard.instantiateViewController(withIdentifier: "LoginViewController") as! LoginViewController
+//        self.navigationController?.pushViewController(vc, animated: true)
 
   
     }
