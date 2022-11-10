@@ -20,6 +20,11 @@
 		8552BA6728EC0075007CE433 /* LearningCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8552BA6628EC0075007CE433 /* LearningCodeTests.swift */; };
 		8552BA7128EC0075007CE433 /* LearningCodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8552BA7028EC0075007CE433 /* LearningCodeUITests.swift */; };
 		8552BA7328EC0075007CE433 /* LearningCodeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8552BA7228EC0075007CE433 /* LearningCodeUITestsLaunchTests.swift */; };
+		8594951A291D1D87007E2F29 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85949515291D1D87007E2F29 /* ThirdViewController.swift */; };
+		8594951B291D1D87007E2F29 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85949516291D1D87007E2F29 /* HomeViewController.swift */; };
+		8594951C291D1D87007E2F29 /* Navigation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85949517291D1D87007E2F29 /* Navigation.storyboard */; };
+		8594951D291D1D87007E2F29 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85949518291D1D87007E2F29 /* SecondViewController.swift */; };
+		8594951E291D1D87007E2F29 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85949519291D1D87007E2F29 /* NavigationController.swift */; };
 		8599D10528F597B6008A4BF1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8599D10428F597B6008A4BF1 /* LoginViewController.swift */; };
 		85A642AE28F0498C00664537 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A642AD28F0498C00664537 /* BaseViewController.swift */; };
 		85FC0920290FA0820069B621 /* SQLite in Frameworks */ = {isa = PBXBuildFile; productRef = 85FC091F290FA0820069B621 /* SQLite */; };
@@ -62,6 +67,11 @@
 		8552BA6C28EC0075007CE433 /* LearningCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearningCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8552BA7028EC0075007CE433 /* LearningCodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningCodeUITests.swift; sourceTree = "<group>"; };
 		8552BA7228EC0075007CE433 /* LearningCodeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningCodeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		85949515291D1D87007E2F29 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		85949516291D1D87007E2F29 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		85949517291D1D87007E2F29 /* Navigation.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Navigation.storyboard; sourceTree = "<group>"; };
+		85949518291D1D87007E2F29 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		85949519291D1D87007E2F29 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		8599D10428F597B6008A4BF1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		85A642AD28F0498C00664537 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		85FC0921290FA8FF0069B621 /* loginModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginModal.swift; sourceTree = "<group>"; };
@@ -117,6 +127,7 @@
 		8552BA4E28EC0071007CE433 /* LearningCode */ = {
 			isa = PBXGroup;
 			children = (
+				85949514291D1D87007E2F29 /* NavigationController */,
 				8552BA4F28EC0071007CE433 /* AppDelegate.swift */,
 				8552BA5128EC0071007CE433 /* SceneDelegate.swift */,
 				8525550F28EEE75F0084E7FC /* 152x152.png */,
@@ -151,6 +162,18 @@
 				8552BA7228EC0075007CE433 /* LearningCodeUITestsLaunchTests.swift */,
 			);
 			path = LearningCodeUITests;
+			sourceTree = "<group>";
+		};
+		85949514291D1D87007E2F29 /* NavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				85949515291D1D87007E2F29 /* ThirdViewController.swift */,
+				85949516291D1D87007E2F29 /* HomeViewController.swift */,
+				85949517291D1D87007E2F29 /* Navigation.storyboard */,
+				85949518291D1D87007E2F29 /* SecondViewController.swift */,
+				85949519291D1D87007E2F29 /* NavigationController.swift */,
+			);
+			path = NavigationController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +286,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8594951C291D1D87007E2F29 /* Navigation.storyboard in Resources */,
 				8552BA5C28EC0075007CE433 /* LaunchScreen.storyboard in Resources */,
 				8552BA5928EC0075007CE433 /* Assets.xcassets in Resources */,
 				8525550E28EEE6FD0084E7FC /* 76x76.png in Resources */,
@@ -292,12 +316,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8594951D291D1D87007E2F29 /* SecondViewController.swift in Sources */,
 				852A9E2328FEC46C00FEFC86 /* BViewController.swift in Sources */,
 				85FC0924290FAB260069B621 /* DBAHelper.swift in Sources */,
+				8594951A291D1D87007E2F29 /* ThirdViewController.swift in Sources */,
 				85FC0922290FA8FF0069B621 /* loginModal.swift in Sources */,
 				8552BA5428EC0071007CE433 /* ViewController.swift in Sources */,
 				85A642AE28F0498C00664537 /* BaseViewController.swift in Sources */,
 				8552BA5028EC0071007CE433 /* AppDelegate.swift in Sources */,
+				8594951E291D1D87007E2F29 /* NavigationController.swift in Sources */,
+				8594951B291D1D87007E2F29 /* HomeViewController.swift in Sources */,
 				8599D10528F597B6008A4BF1 /* LoginViewController.swift in Sources */,
 				852A9E2128FEBB7F00FEFC86 /* AViewController.swift in Sources */,
 				8552BA5228EC0071007CE433 /* SceneDelegate.swift in Sources */,
